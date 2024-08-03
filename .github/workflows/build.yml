@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: superuser_demo_windows
-          path: superuser/example/build/windows/x64/runner/Release/
+          path: build/windows/x64/runner/Release/
   build_linux:
     name: Linux build
     runs-on: ubuntu-latest
@@ -43,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: superuser_demo_linux
-          path: superuser/example/build/linux/x64/release/bundle/
+          path: build/linux/x64/release/bundle/
