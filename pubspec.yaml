@@ -9,7 +9,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   superuser:
-    path: ../
+    git:
+      url: https://github.com/rk0cc/superuser.git
+      path: superuser/
+      ref: main
   url_launcher: ^6.3.0
   font_awesome_flutter: ^10.7.0
 dev_dependencies:

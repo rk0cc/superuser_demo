@@ -208,9 +208,11 @@ packages:
   superuser:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: superuser
+      ref: main
+      resolved-ref: e7f84ebea0f2fa75a2628c3e91164726849da9e4
+      url: "https://github.com/rk0cc/superuser.git"
+    source: git
     version: "2.0.0"
   superuser_interfaces:
     dependency: transitive
