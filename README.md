@@ -1,3 +1,3 @@
 # Demo application of `superuser`
 
-This suppose should be submodule of [`superuser`](https://github.com/rk0cc/superuser), do not clone it directly.
+This is a demo application of [`superuser`](https://github.com/rk0cc/superuser).
