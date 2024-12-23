@@ -1,9 +1,9 @@
 name: superuser_demo
 description: "Flutter superuser package demo application"
 publish_to: 'none'
-version: 2.0.0
+version: 2.1.0
 environment:
-  sdk: '>=3.4.0 <4.0.0'
+  sdk: ^3.6.0
 dependencies:
   flutter:
     sdk: flutter
@@ -18,6 +18,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0  
+  flutter_lints: ^5.0.0
+#dependency_overrides:
+#  superuser:
+#    path: ../superuser/superuser/
+#  superuser_plugin_unix:
+#    path: ../superuser/superuser_plugin_unix/
+#  superuser_plugin_windows:
+#    path: ../superuser/superuser_plugin_windows/
 flutter:
   uses-material-design: true
